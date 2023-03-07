@@ -18,7 +18,7 @@ dotnet test
 run Benchmark.Net
 
 ```
-cd IOExtensions.Test
+cd WMA.IOExtensions.Test
 dotnet run -c Release -- --job short --runtimes net7.0 --filter "*"
 ```
 
