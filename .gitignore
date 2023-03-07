@@ -1,0 +1,14 @@
+# Unneeded binary data
+**/out
+**/bin
+**/obj
+
+**/env
+
+.idea/
+.vs/
+.vscode/
+
+*.DS_Store
+*.DotSettings.user
+**/BenchmarkDotNet.Artifacts

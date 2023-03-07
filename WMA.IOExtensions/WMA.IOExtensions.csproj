@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6;net7</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>WMA</RootNamespace>
+    <PackageId>WMA.IOExtensions</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>wma</Authors>
+    <Product>WMA.IOExtensions</Product>
+    <Description>Provides helpull extensions to various inout-output use cases not included into System.IO</Description>
+    <PackageProjectUrl>https://github.com/wmaryszczak/io_extensions</PackageProjectUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <LangVersion>latest</LangVersion>
+    <PackageTags></PackageTags>
+    <Version>1.0.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Baseline functionalities (check readme)</PackageReleaseNotes>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Pipelines" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
