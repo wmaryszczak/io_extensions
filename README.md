@@ -7,6 +7,21 @@ Project contains extensions to standard .net implementation, which provide the f
 
 ## How to use it
 
+Please include the package https://www.nuget.org/packages/WMA.IOExtensions in `csproj`
+
+then use in the code:
+
+```
+  await foreach(var element in MultiContentJsonReader.DeserializeAsyncEnumerable<TModel>(stream))
+  {
+    if(element != null)
+    {
+      #TODO: do something
+    }
+  }
+
+```
+
 ## How to run
 
 run unit tests
